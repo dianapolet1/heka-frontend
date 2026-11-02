@@ -7,3 +7,6 @@ assets/img/products/
 
 # Archivos temporales para borrar
 _to_delete/
+
+# Build de GitHub Pages (lo genera la Action)
+_site/

@@ -1,0 +1,17 @@
+{
+  "handle": "ritual-studio",
+  "url": "https://hekauniverse.com/pages/ritual-studio",
+  "title": "Ritual Studio  – Casita Heka",
+  "texts": [
+    {
+      "tag": "h2",
+      "text": "Ritual Design Studio"
+    }
+  ],
+  "images": [
+    {
+      "file": "/assets/img/pages/ritual-studio/01.jpg",
+      "original": "https://hekauniverse.com/cdn/shop/files/Pau_Malo_-28.jpg?width=1800"
+    }
+  ]
+}

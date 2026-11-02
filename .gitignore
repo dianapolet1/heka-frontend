@@ -1,0 +1,9 @@
+node_modules/
+.env
+.DS_Store
+Thumbs.db
+# Imágenes descargadas con `npm run sync:images` (pesadas; súbelas al VPS, no al repo)
+assets/img/products/
+
+# Archivos temporales para borrar
+_to_delete/

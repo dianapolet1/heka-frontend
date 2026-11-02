@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop — Heka Universe</title>
+<meta name="description" content="Shop candles, artifacts and painted garments.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.10.0/dist/tabler-icons.min.css">
+<link rel="stylesheet" href="/assets/css/tokens.css">
+<link rel="stylesheet" href="/assets/css/layout.css">
+<link rel="stylesheet" href="/assets/css/components.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="eyebrow" id="cat-eyebrow">Shop the Universe</div>
+    <h1 id="cat-title">All</h1>
+    <p id="cat-desc"></p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:40px">
+  <div class="container">
+    <div class="toolbar">
+      <div class="chips" id="cat-chips"></div>
+      <div style="display:flex;gap:12px;align-items:center">
+        <div class="search-box"><i class="ti ti-search"></i>
+          <input class="input" id="q" type="search" placeholder="Search products…" autocomplete="off"></div>
+        <select class="input" id="sort" style="width:auto">
+          <option value="">Featured</option>
+          <option value="price-asc">Price: low to high</option>
+          <option value="price-desc">Price: high to low</option>
+          <option value="az">A–Z</option>
+        </select>
+      </div>
+    </div>
+    <p id="result-count" style="font-size:13px;color:var(--text-secondary)"></p>
+    <div class="product-grid" id="grid"></div>
+  </div>
+</section>
+
+</main>
+
+<div id="site-footer"></div>
+
+<script src="/assets/vendor/qrcode.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/services.js"></script>
+<script src="/assets/js/layout.js"></script>
+<script src="/assets/js/ui.js"></script>
+<script>
+// Rutas: /collections/:handle  ·  /search?q=texto
+const params = new URLSearchParams(location.search);
+let current = handleFromPath('collections') || 'all';
+let query = params.get('q') || '';
+const isSearch = location.pathname.startsWith('/search');
+
+async function draw() {
+  const col = await Catalog.collection(current);
+  document.getElementById('cat-title').textContent = isSearch && query ? `“${query}”` : (col?.title || 'All');
+  document.getElementById('cat-eyebrow').textContent = isSearch ? 'Search' : 'Shop the Universe';
+  document.getElementById('cat-desc').textContent = htmlToText(col?.description);
+  document.title = `${isSearch ? 'Search' : (col?.title || 'Shop')} — Heka Universe`;
+
+  let list = await Catalog.products({ collection: current, q: query });
+  const sort = document.getElementById('sort').value;
+  if (sort === 'price-asc') list = [...list].sort((a, b) => a.price - b.price);
+  if (sort === 'price-desc') list = [...list].sort((a, b) => b.price - a.price);
+  if (sort === 'az') list = [...list].sort((a, b) => a.title.localeCompare(b.title));
+
+  document.getElementById('result-count').textContent = `${list.length} product${list.length === 1 ? '' : 's'}`;
+  const pending = col && col.products_count > 0 && !list.length && !query;
+  renderGrid(document.getElementById('grid'), list,
+    pending ? 'Esta colección aún no se migra (falta el export CSV de Shopify).' : 'No products found');
+  document.querySelectorAll('#cat-chips .chip').forEach(c => c.classList.toggle('active', c.dataset.h === current));
+}
+
+(async () => {
+  const cols = await Catalog.collections();
+  document.getElementById('cat-chips').innerHTML = cols.map(c =>
+    `<button class="chip" data-h="${c.handle}">${esc(c.title)}</button>`).join('');
+  document.getElementById('cat-chips').addEventListener('click', e => {
+    const h = e.target.dataset.h; if (!h) return;
+    current = h;
+    history.replaceState(null, '', `/collections/${h}${query ? '?q=' + encodeURIComponent(query) : ''}`);
+    draw();
+  });
+  const q = document.getElementById('q');
+  q.value = query;
+  let t;
+  q.addEventListener('input', () => { clearTimeout(t); t = setTimeout(() => { query = q.value.trim(); draw(); }, 200); });
+  document.getElementById('sort').addEventListener('change', draw);
+  if (isSearch) q.focus();
+  draw();
+})();
+</script>
+</body>
+</html>

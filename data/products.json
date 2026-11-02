@@ -1,0 +1,332 @@
+{
+  "products": [
+    {
+      "id": 9090708898017,
+      "title": "Portal Set",
+      "handle": "portal-set",
+      "body_html": "<div class=\"productView-moreItem moreItem-breadcrumb hidden-on-mobile\">Twelve sacred flames. Full immersion.</div>\n<div class=\"tabs-contents tabs-contents-popup clearfix halo-text-format is-show\">\n<div class=\"tab-content is-active\" id=\"tab-description\">\n<div class=\"toggle-content popup-mobile\" id=\"tab-description-mobile\" data-product-description-9090683207905=\"\">\n<div class=\"tab-popup-content\"></div>\n<div class=\"tab-popup-content\">Every month, receive twelve hand-crafted ceremonial candles from Heka’s wax lab a complete ritual collection, each one infused with intention, symbolism, and devotion. </div>\n<div class=\"tab-popup-content\">The Portal Set is for those who live inside the ritual.<br>Set of 12 candles:<br><br>4 — 6 x 20 cm<br>4 — 6 x 25 cm<br>4 — 6 x 30 cm<br><br>Each set is available in Handpainted Symbols or Natural Heka Wax Seal choose your finish at checkout.<br>Handpainted candles feature our signature sacred symbols. Natural Heka Wax Seal candles are left in their pure form, with the Heka brand seal.<br>Subscribe monthly. Auto-renews. Skip or cancel anytime.</div>\n</div>\n</div>\n</div>",
+      "published_at": "2025-09-30T13:13:54-06:00",
+      "created_at": "2025-09-30T13:13:51-06:00",
+      "updated_at": "2026-10-31T23:16:37-06:00",
+      "vendor": "Casita Heka",
+      "product_type": "Candles",
+      "tags": [
+        "Candles"
+      ],
+      "variants": [
+        {
+          "id": 48292629938401,
+          "title": "Painted",
+          "option1": "Painted",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "388.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 9090708898017,
+          "created_at": "2026-05-06T08:46:03-06:00",
+          "updated_at": "2026-10-31T23:16:37-06:00"
+        },
+        {
+          "id": 48292629971169,
+          "title": "Natural + Heka seal",
+          "option1": "Natural + Heka seal",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "388.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 2,
+          "product_id": 9090708898017,
+          "created_at": "2026-05-06T08:46:03-06:00",
+          "updated_at": "2026-10-31T23:16:37-06:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 48240499163361,
+          "created_at": "2026-01-31T22:42:04-06:00",
+          "position": 1,
+          "updated_at": "2026-01-31T22:43:28-06:00",
+          "product_id": 9090708898017,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0740/5610/6209/files/3_39280bd3-9cf0-4390-9609-f503d3f7b692.jpg?v=1769921008",
+          "width": 1654,
+          "height": 1654
+        },
+        {
+          "id": 46873935315169,
+          "created_at": "2025-09-30T12:12:10-06:00",
+          "position": 2,
+          "updated_at": "2026-05-06T09:20:40-06:00",
+          "product_id": 9090708898017,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0740/5610/6209/files/Candle_gazing.jpg?v=1778080840",
+          "width": 1000,
+          "height": 1500
+        },
+        {
+          "id": 46873935216865,
+          "created_at": "2025-09-30T12:12:10-06:00",
+          "position": 3,
+          "updated_at": "2026-01-31T22:43:28-06:00",
+          "product_id": 9090708898017,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0740/5610/6209/files/IMG_7052.jpg?v=1769921008",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "id": 46873935184097,
+          "created_at": "2025-09-30T12:12:10-06:00",
+          "position": 4,
+          "updated_at": "2026-01-31T22:43:28-06:00",
+          "product_id": 9090708898017,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0740/5610/6209/files/dclassic2023-03-01202220.223.jpg?v=1769921008",
+          "width": 2243,
+          "height": 3365
+        }
+      ],
+      "options": [
+        {
+          "name": "Finish",
+          "position": 1,
+          "values": [
+            "Painted",
+            "Natural + Heka seal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9090707095777,
+      "title": "Templo set",
+      "handle": "temple-set",
+      "body_html": "<div class=\"productView-moreItem moreItem-breadcrumb hidden-on-mobile\"><br></div>\n<div class=\"tabs-contents tabs-contents-popup clearfix halo-text-format is-show\">\n<div class=\"tab-content is-active\" id=\"tab-description\">\n<div class=\"toggle-content popup-mobile\" id=\"tab-description-mobile\" data-product-description-9090683207905=\"\">\n<div class=\"tab-popup-content\">\n<p>Six sacred flames.</p>\n<p>Every month, receive six hand-crafted ceremonial candles from Heka’s wax lab. </p>\n<p>Each set is available in Handpainted Symbols or Natural Heka Wax Seal choose your finish at checkout.</p>\n<p>2 — 6 x 20 cm<br>2 — 6 x 25 cm<br>2 — 6 x 30 cm</p>\n<p>Handpainted candles feature our signature sacred symbols, hand-applied in our Mexico City wax lab. Natural Heka Wax Seal candles are left in their pure form, just the Heka brand seal.<br><br>Subscribe monthly. Auto-renews. Skip or cancel anytime.<br></p>\n</div>\n</div>\n</div>\n</div>",
+      "published_at": "2025-09-30T13:09:44-06:00",
+      "created_at": "2025-09-30T13:09:42-06:00",
+      "updated_at": "2026-10-31T23:16:37-06:00",
+      "vendor": "Casita Heka",
+      "product_type": "",
+      "tags": [
+        "Candles"
+      ],
+      "variants": [
+        {
+          "id": 48292356784353,
+          "title": "Handpainted symbols",
+          "option1": "Handpainted symbols",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "233.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 9090707095777,
+          "created_at": "2026-05-06T06:23:42-06:00",
+          "updated_at": "2026-10-31T23:16:37-06:00"
+        },
+        {
+          "id": 48292356817121,
+          "title": "Unpainted",
+          "option1": "Unpainted",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "233.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 2,
+          "product_id": 9090707095777,
+          "created_at": "2026-05-06T06:23:42-06:00",
+          "updated_at": "2026-10-31T23:16:37-06:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 48240499196129,
+          "created_at": "2026-01-31T22:42:04-06:00",
+          "position": 1,
+          "updated_at": "2026-01-31T22:43:05-06:00",
+          "product_id": 9090707095777,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0740/5610/6209/files/2_76e4b2e0-3735-4640-b74e-49635203346a.jpg?v=1769920985",
+          "width": 1654,
+          "height": 1654
+        },
+        {
+          "id": 46873935216865,
+          "created_at": "2025-09-30T12:12:10-06:00",
+          "position": 2,
+          "updated_at": "2026-01-31T22:43:28-06:00",
+          "product_id": 9090707095777,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0740/5610/6209/files/IMG_7052.jpg?v=1769921008",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "id": 46873935249633,
+          "created_at": "2025-09-30T12:12:10-06:00",
+          "position": 3,
+          "updated_at": "2026-05-06T07:39:29-06:00",
+          "product_id": 9090707095777,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0740/5610/6209/files/Ania_candle.jpg?v=1778074769",
+          "width": 4000,
+          "height": 6000
+        }
+      ],
+      "options": [
+        {
+          "name": "Finish",
+          "position": 1,
+          "values": [
+            "Handpainted symbols",
+            "Unpainted"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9090683207905,
+      "title": "Altar set",
+      "handle": "altar-set",
+      "body_html": "<p>Three sacred flames. Your foundation.<br>Every month, receive three hand-crafted ceremonial candles from Heka’s wax lab, these candles are designed to anchor your daily ritual and illuminate your sacred space.<br>Set of 3 candles:<br>1 — 6 x 20 cm<br>1 — 6 x 25 cm<br>1 — 6 x 30 cm<br>Each set is available in Handpainted Symbols or Natural Heka Wax Seal — choose your finish at checkout.<br>Handpainted candles feature our signature sacred symbols, hand-applied in our Mexico City wax lab. Natural Heka Wax Seal candles are left in their pure form, stamped with the Heka brand seal.<br>Subscribe monthly. Auto-renews. Skip or cancel anytime.</p>",
+      "published_at": "2025-09-30T12:16:43-06:00",
+      "created_at": "2025-09-30T12:16:41-06:00",
+      "updated_at": "2026-10-31T23:16:37-06:00",
+      "vendor": "Casita Heka",
+      "product_type": "Candles",
+      "tags": [],
+      "variants": [
+        {
+          "id": 48292658086113,
+          "title": "Painted",
+          "option1": "Painted",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "133.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 9090683207905,
+          "created_at": "2026-05-06T08:47:36-06:00",
+          "updated_at": "2026-10-31T23:16:37-06:00"
+        },
+        {
+          "id": 48292658118881,
+          "title": "Natural + Heka Seal",
+          "option1": "Natural + Heka Seal",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "133.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 2,
+          "product_id": 9090683207905,
+          "created_at": "2026-05-06T08:47:36-06:00",
+          "updated_at": "2026-10-31T23:16:37-06:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 48240499130593,
+          "created_at": "2026-01-31T22:42:04-06:00",
+          "position": 1,
+          "updated_at": "2026-05-06T09:19:33-06:00",
+          "product_id": 9090683207905,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0740/5610/6209/files/altar_set_product.jpg?v=1778080773",
+          "width": 1654,
+          "height": 1654
+        },
+        {
+          "id": 46873935315169,
+          "created_at": "2025-09-30T12:12:10-06:00",
+          "position": 2,
+          "updated_at": "2026-05-06T09:20:40-06:00",
+          "product_id": 9090683207905,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0740/5610/6209/files/Candle_gazing.jpg?v=1778080840",
+          "width": 1000,
+          "height": 1500
+        },
+        {
+          "id": 46873935249633,
+          "created_at": "2025-09-30T12:12:10-06:00",
+          "position": 3,
+          "updated_at": "2026-05-06T07:39:29-06:00",
+          "product_id": 9090683207905,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0740/5610/6209/files/Ania_candle.jpg?v=1778074769",
+          "width": 4000,
+          "height": 6000
+        },
+        {
+          "id": 48874329964769,
+          "created_at": "2026-05-06T02:33:23-06:00",
+          "position": 4,
+          "updated_at": "2026-05-06T09:22:48-06:00",
+          "product_id": 9090683207905,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0740/5610/6209/files/Altar_set_with_fire.png?v=1778080968",
+          "width": 2732,
+          "height": 2048
+        },
+        {
+          "id": 48874330063073,
+          "created_at": "2026-05-06T02:33:24-06:00",
+          "position": 5,
+          "updated_at": "2026-05-06T09:24:26-06:00",
+          "product_id": 9090683207905,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0740/5610/6209/files/Natural_Heka_seal_Altar_set.png?v=1778081066",
+          "width": 2732,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "Finish",
+          "position": 1,
+          "values": [
+            "Painted",
+            "Natural + Heka Seal"
+          ]
+        }
+      ]
+    }
+  ]
+}

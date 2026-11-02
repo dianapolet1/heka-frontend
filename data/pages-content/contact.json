@@ -1,0 +1,28 @@
+{
+  "handle": "contact",
+  "url": "https://hekauniverse.com/pages/contact",
+  "title": "Contact  – Casita Heka",
+  "texts": [
+    {
+      "tag": "h1",
+      "text": "Contact"
+    },
+    {
+      "tag": "h2",
+      "text": "Contact US"
+    },
+    {
+      "tag": "p",
+      "text": "support@hekauniverse.com"
+    },
+    {
+      "tag": "p",
+      "text": "San Luis Potosi 45, Casa 2\n Mexico City, 06700, \n\nMexico"
+    },
+    {
+      "tag": "p",
+      "text": "Opening Hours:\n\n\nMON to FRI: \n11:00AM - 11:00PM\n\n\nSAT: 01:00PM - 8:00PM"
+    }
+  ],
+  "images": []
+}

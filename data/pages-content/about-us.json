@@ -1,0 +1,53 @@
+{
+  "handle": "about-us",
+  "url": "https://hekauniverse.com/pages/about-us",
+  "title": "Our Origins  – Casita Heka",
+  "texts": [
+    {
+      "tag": "h2",
+      "text": "Our Origins"
+    },
+    {
+      "tag": "h2",
+      "text": "HEKA"
+    },
+    {
+      "tag": "h3",
+      "text": "The word Heka itself carries ancient resonance. In Egyptian tradition, it was the force of magic, the power to shape reality through vibration, intention, and sacred word. For us, Heka activates memory in the soul."
+    },
+    {
+      "tag": "h2",
+      "text": "Our symbols are not ornamental. They are codes. keys that unlock portals of remembrance. Many emerge through deep attunement with the Maya and Aztec lineages, who saw the universe as a living calendar, a dance of time, number, and deity. Their glyphs were never merely drawings; they were living beings, carriers of cosmic law."
+    },
+    {
+      "tag": "h3",
+      "text": "Inspired by other ancient civilizations who encoded wisdom in geometry, stone, and fire. The spiral, the eye, the cross of directions, the sacred tree. These are universal motifs appearing in temples from Mesoamerica to Mesopotamia. From the Andes to Egypt."
+    },
+    {
+      "tag": "h2",
+      "text": "EXPLORE THE UNIVERSE"
+    }
+  ],
+  "images": [
+    {
+      "file": "/assets/img/pages/about-us/01.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/Sian-Kaan1.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/about-us/02.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2930.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/about-us/03.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/about-us/04.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/about-us/05.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2597.png?width=1800"
+    }
+  ]
+}

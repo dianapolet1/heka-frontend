@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product — Heka Universe</title>
+<meta name="description" content="">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.10.0/dist/tabler-icons.min.css">
+<link rel="stylesheet" href="/assets/css/tokens.css">
+<link rel="stylesheet" href="/assets/css/layout.css">
+<link rel="stylesheet" href="/assets/css/components.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main>
+
+<div class="container">
+  <div class="pdp" id="pdp"><div class="empty"><i class="ti ti-loader"></i>Loading…</div></div>
+</div>
+
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="section-title"><h2>You may also like</h2></div>
+    <div class="product-grid" id="related-grid"></div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0" hidden>
+  <div class="container">
+    <div class="section-title"><h2>Recently viewed</h2></div>
+    <div class="product-grid" id="recent-grid"></div>
+  </div>
+</section>
+
+</main>
+
+<div id="site-footer"></div>
+
+<script src="/assets/vendor/qrcode.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/services.js"></script>
+<script src="/assets/js/layout.js"></script>
+<script src="/assets/js/ui.js"></script>
+<script>
+const handle = handleFromPath('products');
+let state = null;
+
+function drawPdp() {
+  const { p, variantId, qty, img } = state;
+  const v = p.variants.find(x => x.id === variantId);
+  const wished = Wishlist.has(p.handle);
+  document.getElementById('pdp').innerHTML = `
+    <div>
+      <div class="gallery-main"><img src="${esc(p.images[img] || '')}" alt="${esc(p.title)}"></div>
+      <div class="gallery-thumbs">${p.images.map((src, i) =>
+        `<img src="${esc(src)}" class="${i === img ? 'active' : ''}" onclick="state.img=${i};drawPdp()" alt="">`).join('')}</div>
+    </div>
+    <div>
+      <div class="eyebrow">${esc(p.vendor)}</div>
+      <h1 style="font-size:44px">${esc(p.title)}</h1>
+      ${p.isSubscription ? '<span class="tag-sub"><i class="ti ti-refresh"></i> Monthly subscription</span>' : ''}
+      <div class="pdp-price">${formatMoney(v.price)}${p.isSubscription ? ' <small style="font-size:14px;color:var(--text-secondary)">/ month</small>' : ''}</div>
+      ${variantChips(p, variantId, 'selectVariant')}
+      <div class="pdp-buy">
+        <div class="qty"><button onclick="changeQty(-1)">−</button><input value="${qty}" readonly><button onclick="changeQty(1)">+</button></div>
+        <button class="btn btn-primary" onclick="addToCart()" ${v.available ? '' : 'disabled'}>${v.available ? 'Add to cart' : 'Sold out'}</button>
+      </div>
+      <div class="pdp-meta">
+        <button class="btn btn-outline ${wished ? 'wish-active' : ''}" data-wish="${p.handle}" onclick="toggleWish(this)">
+          <i class="ti ${wished ? 'ti-heart-filled' : 'ti-heart'}"></i> Wishlist</button>
+        <button class="btn btn-outline" onclick="openQr('${p.handle}')"><i class="ti ti-qrcode"></i> QR</button>
+      </div>
+      <div class="pdp-desc" style="margin-top:28px">${p.descriptionHtml}</div>
+    </div>`;
+}
+function selectVariant(id) { state.variantId = id; drawPdp(); }
+function changeQty(d) { state.qty = Math.max(1, state.qty + d); drawPdp(); }
+function addToCart() { Cart.add(state.p, state.variantId, state.qty); openCartDrawer(); }
+
+(async () => {
+  const p = handle && await Catalog.product(handle);
+  if (!p) {
+    document.getElementById('pdp').innerHTML = '<div class="empty" style="grid-column:1/-1"><i class="ti ti-mood-empty"></i>Product not found<br><br><a class="btn btn-outline" href="/collections/all">Back to shop</a></div>';
+    return;
+  }
+  document.title = `${p.title} — Heka Universe`;
+  document.querySelector('meta[name=description]').content = p.descriptionText.slice(0, 155);
+  state = { p, variantId: p.variants.find(v => v.available)?.id || p.variants[0].id, qty: 1, img: 0 };
+  drawPdp();
+  Recent.push(p.handle);
+
+  const related = (await Catalog.products({ collection: p.collections.find(c => c !== 'all') || 'all' }))
+    .filter(x => x.handle !== p.handle).slice(0, 4);
+  renderGrid(document.getElementById('related-grid'), related);
+  renderRecentlyViewed('recent-grid', p.handle);
+})();
+</script>
+</body>
+</html>

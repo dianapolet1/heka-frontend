@@ -1,0 +1,537 @@
+{
+  "handle": "shop-the-universe",
+  "url": "https://hekauniverse.com/pages/shop-the-universe",
+  "title": "Shop the universe  – Casita Heka",
+  "texts": [
+    {
+      "tag": "p",
+      "text": "Just Released"
+    },
+    {
+      "tag": "h3",
+      "text": "HEKA"
+    },
+    {
+      "tag": "h3",
+      "text": "Editor's Picks"
+    },
+    {
+      "tag": "p",
+      "text": "Subscription"
+    },
+    {
+      "tag": "h3",
+      "text": "Altar set"
+    },
+    {
+      "tag": "h3",
+      "text": "Temple Set"
+    },
+    {
+      "tag": "h3",
+      "text": "Portal Set"
+    },
+    {
+      "tag": "h3",
+      "text": "Example product title"
+    },
+    {
+      "tag": "p",
+      "text": "Artifacts"
+    },
+    {
+      "tag": "h3",
+      "text": "Saturn Copalera"
+    },
+    {
+      "tag": "h3",
+      "text": "Candle Holder"
+    },
+    {
+      "tag": "li",
+      "text": "Artifacts\r\n \r\n Shop Now\r\n \r\r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n Candles\r\n \r\n Shop Now\r\n \r\r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n Waxed Clothes\r\n \r\n Shop Now\r\n \r\r\n \r\n 1"
+    }
+  ],
+  "images": [
+    {
+      "file": "/assets/img/pages/shop-the-universe/01.jpg",
+      "original": "https://hekauniverse.com/cdn/shop/files/Pau_Malo_-28.jpg?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/02.jpg",
+      "original": "https://hekauniverse.com/cdn/shop/files/dclassic2023-03-01202220.223.jpg?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/03.jpg",
+      "original": "https://hekauniverse.com/cdn/shop/files/Photo09-05-25_14918pm_1.jpg?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/04.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_165x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/05.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_170x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/06.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_185x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/07.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_198x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/08.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_205x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/09.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_210x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/10.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_220x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/11.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_245x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/12.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_270x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/13.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_290x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/14.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_320x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/15.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_355x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/16.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_360x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/17.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_370x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/18.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_420x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/19.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_430x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/20.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_460x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/21.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_470x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/22.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_510x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/23.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_523x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/24.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_533x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/25.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_534x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/26.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_570x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/27.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_640x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/28.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_665x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/29.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_670x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/30.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_720x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/31.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_775x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/32.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_785x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/33.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_870x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/34.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_930x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/35.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_935x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/36.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_940x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/37.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_1066x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/38.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_1160x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/39.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_1170x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/40.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_1270x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/41.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_1370x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/42.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/artifacts_1570x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/43.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_165x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/44.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_170x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/45.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_185x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/46.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_198x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/47.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_205x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/48.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_210x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/49.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_220x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/50.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_245x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/51.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_270x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/52.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_290x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/53.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_320x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/54.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_355x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/55.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_360x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/56.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_370x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/57.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_420x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/58.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_430x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/59.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_460x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/60.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_470x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/61.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_510x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/62.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_523x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/63.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_533x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/64.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_534x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/65.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_570x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/66.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_640x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/67.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_665x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/68.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_670x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/69.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_720x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/70.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_775x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/71.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_785x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/72.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_870x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/73.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_930x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/74.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_935x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/75.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_940x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/76.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_1066x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/77.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_1160x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/78.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_1170x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/79.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_1270x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/80.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_1370x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/81.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2604_1570x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/82.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_165x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/83.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_170x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/84.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_185x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/85.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_198x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/86.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_205x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/87.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_210x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/88.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_220x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/89.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_245x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/90.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_270x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/91.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_290x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/92.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_320x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/93.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_355x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/94.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_360x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/95.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_370x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/96.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_420x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/97.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_430x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/98.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_460x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/99.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_470x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/100.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_510x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/101.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_523x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/102.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_533x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/103.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_534x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/104.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_570x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/105.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_640x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/106.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_665x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/107.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_670x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/108.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_720x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/109.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_775x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/110.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_785x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/111.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_870x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/112.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_930x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/113.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_935x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/114.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_940x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/115.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_1066x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/116.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_1160x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/117.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_1170x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/118.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_1270x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/119.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_1370x.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/shop-the-universe/120.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/IMG_2595_1570x.png?width=1800"
+    }
+  ]
+}

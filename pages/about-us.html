@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Origins — Heka Universe</title>
+<meta name="description" content="The word Heka carries ancient resonance: the force of magic, the power to shape reality through vibration, intention and sacred word.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.10.0/dist/tabler-icons.min.css">
+<link rel="stylesheet" href="/assets/css/tokens.css">
+<link rel="stylesheet" href="/assets/css/layout.css">
+<link rel="stylesheet" href="/assets/css/components.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main>
+
+<!-- 1. Portada -->
+<section class="origins-hero">
+  <a href="/pages/universe-of-pau" aria-label="Universe of Pau"><img src="/assets/img/pages/about-us/01.png" alt="Sian Ka'an"></a>
+  <h1><span>Our Origins</span></h1>
+</section>
+
+<!-- 2. Texto galáctico -->
+<section class="origins-intro">
+  <div class="container">
+    <p>beyond the ancestral lies the galactic: the recognition that our ancestors were not bound to Earth alone. The Galactic Federation, whispered in prophecies and visions, represents the council of cosmic intelligence guiding humanity back into harmony with the greater universe. Our work channels these frequencies—reminding us that the symbols are not just relics of the past, but transmissions from the stars.</p>
+  </div>
+</section>
+
+<!-- 3. HEKA + video vertical (fondo: imagen de identidad visual) -->
+<!-- TODO: descargar videos y la imagen de fondo al VPS (hoy vienen del CDN de Shopify) -->
+<section class="origins-heka reveal">
+  <div class="origins-heka__grid">
+    <div class="vvideo"><video autoplay muted loop playsinline preload="metadata"><source src="https://cdn.shopify.com/videos/c/o/v/abef70b8138845c7b813ee4fc94c8c09.mp4" type="video/mp4"></video></div>
+    <div class="origins-heka__text">
+      <h2>HEKA</h2>
+      <h3>The word Heka itself carries ancient resonance. In Egyptian tradition, it was the force of magic, the power to shape reality through vibration, intention, and sacred word. For us, Heka activates memory in the soul.</h3>
+    </div>
+  </div>
+</section>
+
+<!-- 4. Símbolos -->
+<section class="origins-two">
+  <div class="origins-two__wrap">
+    <img src="/assets/img/pages/about-us/02.png" alt="" loading="lazy">
+    <h2>Our symbols are not ornamental. They are codes. keys that unlock portals of remembrance. Many emerge through deep attunement with the Maya and Aztec lineages, who saw the universe as a living calendar, a dance of time, number, and deity. Their glyphs were never merely drawings; they were living beings, carriers of cosmic law.</h2>
+  </div>
+</section>
+
+<!-- 5. Video + texto -->
+<section class="origins-vtext">
+  <div class="origins-vtext__grid">
+    <div class="origins-vtext__video"><video controls preload="metadata" playsinline><source src="https://cdn.shopify.com/videos/c/o/v/761208a0359d414da61ce2e98ac328fd.mp4" type="video/mp4"></video></div>
+    <h3>Inspired by other ancient civilizations who encoded wisdom in geometry, stone, and fire. The spiral, the eye, the cross of directions, the sacred tree. These are universal motifs appearing in temples from Mesoamerica to Mesopotamia. From the Andes to Egypt.</h3>
+  </div>
+</section>
+
+<!-- 6. Carrusel de videos (se reproducen al pasar el mouse) -->
+<section class="origins-reels">
+  <div class="origins-reels__grid">
+    <div class="reel" tabindex="0"><video muted loop playsinline preload="metadata"><source src="https://cdn.shopify.com/videos/c/o/v/abef70b8138845c7b813ee4fc94c8c09.mp4" type="video/mp4"></video></div><div class="reel" tabindex="0"><video muted loop playsinline preload="metadata"><source src="https://cdn.shopify.com/videos/c/o/v/761208a0359d414da61ce2e98ac328fd.mp4" type="video/mp4"></video></div><div class="reel" tabindex="0"><video muted loop playsinline preload="metadata"><source src="https://cdn.shopify.com/videos/c/o/v/c209e327f90e4d749a6949a758e5aa76.mov" type="video/mp4"></video></div><div class="reel" tabindex="0"><video muted loop playsinline preload="metadata"><source src="https://cdn.shopify.com/videos/c/o/v/63739c8caceb4666aa55dd2c6ed6a1b1.mp4" type="video/mp4"></video></div>
+  </div>
+</section>
+
+<!-- 7. Explore the Universe: carrusel centrado con los lados asomando -->
+<section class="origins-explore">
+  <div class="container">
+    <h2>EXPLORE THE UNIVERSE</h2>
+    <div class="spot" id="spot" aria-roledescription="carousel">
+      <div class="spot__track"></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<div id="site-footer"></div>
+
+<script src="/assets/vendor/qrcode.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/services.js"></script>
+<script src="/assets/js/layout.js"></script>
+<script src="/assets/js/ui.js"></script>
+<script>
+// Reels: se reproducen al pasar el mouse (o con Enter/Espacio)
+document.querySelectorAll('.reel').forEach(r => {
+  const v = r.querySelector('video');
+  r.addEventListener('mouseenter', () => v.play().catch(() => {}));
+  r.addEventListener('mouseleave', () => { v.pause(); v.currentTime = 0; });
+  r.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); v.paused ? v.play() : v.pause(); } });
+});
+// Animación de entrada al hacer scroll
+// Carrusel "Explore the Universe": slide activa al centro, vecinas asomando, infinito
+(() => {
+  const ITEMS = [
+    { img: '/assets/img/pages/about-us/03.png', href: '/collections/candles', label: 'Shop Candles' },
+    { img: '/assets/img/pages/about-us/04.png', href: '/collections/wax-painted-clothes', label: 'Shop Wax Painted Clothes' },
+    { img: '/assets/img/pages/about-us/05.png', href: '/collections/hand-painted-clothes', label: 'Shop Hand Painted Clothes' },
+  ];
+  const spot = document.getElementById('spot'), track = spot.querySelector('.spot__track');
+  const n = ITEMS.length, copies = [...ITEMS, ...ITEMS, ...ITEMS];      // 3 copias para el loop
+  track.innerHTML = copies.map((it, i) => `
+    <div class="spot__slide" data-i="${i}">
+      <a href="${it.href}" class="spot__img"><img src="${it.img}" alt="${it.label.replace('Shop ', '')}" loading="lazy"></a>
+      <a href="${it.href}" class="spot__btn">${it.label}</a>
+    </div>`).join('');
+  let idx = n;                                                          // empieza en la copia del medio
+  const place = (animate = true) => {
+    const slide = track.children[0].getBoundingClientRect().width;
+    const offset = spot.clientWidth / 2 - slide / 2 - idx * slide;
+    track.style.transition = animate ? 'transform .5s ease' : 'none';
+    track.style.transform = `translateX(${offset}px)`;
+  };
+  track.addEventListener('transitionend', () => {
+    if (idx < n || idx >= 2 * n) { idx = n + ((idx % n) + n) % n; place(false); }
+  });
+  track.addEventListener('click', e => {
+    const s = e.target.closest('.spot__slide'); if (!s) return;
+    const i = +s.dataset.i;
+    if (i !== idx) { e.preventDefault(); idx = i; place(); }            // tocar una vecina la centra
+  });
+  let x0 = null;                                                        // deslizar con el dedo / mouse
+  spot.addEventListener('pointerdown', e => { x0 = e.clientX; });
+  spot.addEventListener('pointerup', e => {
+    if (x0 === null) return; const dx = e.clientX - x0; x0 = null;
+    if (Math.abs(dx) > 40) { idx += dx < 0 ? 1 : -1; place(); }
+  });
+  window.addEventListener('resize', () => place(false));
+  requestAnimationFrame(() => place(false));
+})();
+
+const io = new IntersectionObserver(es => es.forEach(e => e.isIntersecting && e.target.classList.add('in')), { threshold: .2 });
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

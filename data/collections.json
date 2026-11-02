@@ -1,0 +1,84 @@
+{
+  "collections": [
+    {
+      "id": 473218384097,
+      "title": "All",
+      "handle": "all",
+      "description": "",
+      "published_at": "2025-10-24T08:14:23-06:00",
+      "updated_at": "2026-07-31T05:19:34-06:00",
+      "image": null,
+      "products_count": 5
+    },
+    {
+      "id": 469473132769,
+      "title": "Artifacts",
+      "handle": "artifacts",
+      "description": "",
+      "published_at": "2025-09-04T10:10:48-06:00",
+      "updated_at": "2026-05-29T01:42:30-06:00",
+      "image": {
+        "id": 1688144019681,
+        "created_at": "2025-09-30T13:55:12-06:00",
+        "src": "https://cdn.shopify.com/s/files/1/0740/5610/6209/collections/artifacts.png?v=1759262112",
+        "alt": null
+      },
+      "products_count": 2
+    },
+    {
+      "id": 464096067809,
+      "title": "Candles",
+      "handle": "candles",
+      "description": "<div class=\"sqs-block html-block sqs-block-html\" data-block-type=\"2\" data-border-radii='{\"topLeft\":{\"unit\":\"px\",\"value\":0.0},\"topRight\":{\"unit\":\"px\",\"value\":0.0},\"bottomLeft\":{\"unit\":\"px\",\"value\":0.0},\"bottomRight\":{\"unit\":\"px\",\"value\":0.0}}' id=\"block-yui_3_17_2_1_1657561161458_15538\">\n<div class=\"sqs-block-content\">\n<div class=\"sqs-html-content\">\n<p class=\"\">Hand painted candles with magic/light codes, bringing us closer to the stars. Connecting us with our light and inner fire.<br>Using different sized candles that can weigh up to 100kg, set the perfect space for ceremonies, protection and illumination, shining light on our intentions with different colors of wax. A powerful tool for ceremonies and rituals, that help manifest blessings in our life.</p>\n</div>\n</div>\n</div>",
+      "published_at": "2025-06-23T13:17:35-06:00",
+      "updated_at": "2026-07-31T05:19:34-06:00",
+      "image": {
+        "id": 1687388061921,
+        "created_at": "2025-06-23T13:17:34-06:00",
+        "src": "https://cdn.shopify.com/s/files/1/0740/5610/6209/collections/candle_logo_-_w_b.png?v=1752438242",
+        "alt": null
+      },
+      "products_count": 3
+    },
+    {
+      "id": 469473100001,
+      "title": "Eclipse Couture",
+      "handle": "eclipse-couture",
+      "description": "<p>This are the Painted and Waxed painted clothes from our Collection </p>",
+      "published_at": "2025-09-04T10:10:32-06:00",
+      "updated_at": "2026-05-08T16:21:10-06:00",
+      "image": null,
+      "products_count": 0
+    },
+    {
+      "id": 464166027489,
+      "title": "Hand Painted Clothes",
+      "handle": "hand-painted-clothes",
+      "description": "",
+      "published_at": "2025-06-25T09:56:07-06:00",
+      "updated_at": "2026-05-30T00:03:32-06:00",
+      "image": {
+        "id": 1687502225633,
+        "created_at": "2025-07-13T14:23:23-06:00",
+        "src": "https://cdn.shopify.com/s/files/1/0740/5610/6209/collections/IMG_2597.png?v=1752438203",
+        "alt": null
+      },
+      "products_count": 16
+    },
+    {
+      "id": 464096264417,
+      "title": "Wax Painted Clothes",
+      "handle": "wax-painted-clothes",
+      "description": "",
+      "published_at": "2025-06-23T13:19:10-06:00",
+      "updated_at": "2026-05-30T00:03:32-06:00",
+      "image": {
+        "id": 1687502160097,
+        "created_at": "2025-07-13T14:23:10-06:00",
+        "src": "https://cdn.shopify.com/s/files/1/0740/5610/6209/collections/IMG_2595.png?v=1752438190",
+        "alt": null
+      },
+      "products_count": 15
+    }
+  ]
+}

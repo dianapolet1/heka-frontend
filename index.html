@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home — Heka Universe</title>
+<meta name="description" content="Ceremonial candles, encaustic art and wax painted garments by Casita Heka.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.10.0/dist/tabler-icons.min.css">
+<link rel="stylesheet" href="/assets/css/tokens.css">
+<link rel="stylesheet" href="/assets/css/layout.css">
+<link rel="stylesheet" href="/assets/css/components.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main>
+<section class="slideshow" id="slideshow" aria-label="Heka">
+  <div class="slide active"><img src="/assets/img/home/slide-1.jpg" alt=""></div>
+  <div class="slide"><img src="/assets/img/home/slide-2.jpg" alt="" loading="lazy"></div>
+  <div class="slide"><img src="/assets/img/home/slide-3.jpg" alt="" loading="lazy"></div>
+  <div class="slide-content">
+    <h2>Heka</h2>
+    <a href="/pages/shop-the-universe" class="btn btn-outline">Shop the Universe</a>
+  </div>
+  <button class="slide-arrow prev" aria-label="Previous" data-dir="-1"><svg viewBox="0 0 280.66 62.99" aria-hidden="true"><polygon points="280.66 55.65 225.01 0 219.82 5.19 270.27 55.65 0 55.65 0 62.99 280.66 62.99 280.66 55.65"/></svg></button>
+  <button class="slide-arrow next" aria-label="Next" data-dir="1"><svg viewBox="0 0 280.66 62.99" aria-hidden="true"><polygon points="280.66 55.65 225.01 0 219.82 5.19 270.27 55.65 0 55.65 0 62.99 280.66 62.99 280.66 55.65"/></svg></button>
+  <div class="slide-dots"></div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-title"><h2>Candle Subscriptions</h2></div>
+    <div class="product-grid" id="subs-grid" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr))"></div>
+  </div>
+</section>
+
+<section class="video-section">
+  <!-- TODO: descargar el video y servirlo desde el VPS (hoy viene del CDN de Shopify) -->
+  <video muted playsinline autoplay loop controls preload="metadata">
+    <source src="https://cdn.shopify.com/videos/c/o/v/c8516cf527c048518e14a84069675277.mov" type="video/mp4">
+  </video>
+</section>
+
+<section class="section" hidden>
+  <div class="container">
+    <div class="section-title"><h2>Recently viewed</h2></div>
+    <div class="product-grid" id="recent-grid"></div>
+  </div>
+</section>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="/assets/vendor/qrcode.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/services.js"></script>
+<script src="/assets/js/layout.js"></script>
+<script src="/assets/js/ui.js"></script>
+<script>
+// Slideshow como el original (slick): cambia cada 3 s, fade de 0.5 s,
+// se pausa con el mouse encima y las flechas aparecen al pasar el mouse.
+(() => {
+  const show = document.getElementById('slideshow');
+  const slides = [...show.querySelectorAll('.slide')];
+  const dots = show.querySelector('.slide-dots');
+  const SPEED = 3000;
+  let i = 0, timer, paused = false;
+  dots.innerHTML = slides.map((_, n) => `<button aria-label="Slide ${n + 1}" data-n="${n}"></button>`).join('');
+  const restart = () => { clearInterval(timer); if (!paused) timer = setInterval(() => go(i + 1), SPEED); };
+  const go = n => {
+    i = (n + slides.length) % slides.length;
+    slides.forEach((s, k) => s.classList.toggle('active', k === i));
+    dots.querySelectorAll('button').forEach((d, k) => d.classList.toggle('active', k === i));
+    restart();
+  };
+  dots.addEventListener('click', e => e.target.dataset.n && go(+e.target.dataset.n));
+  show.querySelectorAll('.slide-arrow').forEach(b => b.addEventListener('click', () => go(i + +b.dataset.dir)));
+  show.addEventListener('mouseenter', () => { paused = true; clearInterval(timer); });
+  show.addEventListener('mouseleave', () => { paused = false; restart(); });
+  document.addEventListener('visibilitychange', () => document.hidden ? clearInterval(timer) : restart());
+  go(0);
+})();
+
+(async () => {
+  // Mismo orden que el original: Altar, Templo, Portal (de menor a mayor precio)
+  renderGrid(document.getElementById('subs-grid'), (await Catalog.products({ collection: 'candles' })).sort((a, b) => a.price - b.price));
+  renderRecentlyViewed('recent-grid');
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Heka Universe</title>
+<meta name="description" content="Contact Casita Heka: questions or personalised orders.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.10.0/dist/tabler-icons.min.css">
+<link rel="stylesheet" href="/assets/css/tokens.css">
+<link rel="stylesheet" href="/assets/css/layout.css">
+<link rel="stylesheet" href="/assets/css/components.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main>
+
+<section class="ct-map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7525.891330335197!2d-99.15937752415199!3d19.41475348186079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff3b54e398e5%3A0x91ce59d816a4c04f!2sSan%20Luis%20Potos%C3%AD%2045%2C%20Roma%20Nte.%2C%20Cuauht%C3%A9moc%2C%2006700%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX%2C%20Mexico!5e0!3m2!1sen!2sus!4v1755782357822!5m2!1sen!2sus" title="Casita Heka — San Luis Potosí 45, Roma Nte., CDMX" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="ct">
+  <div class="ct__container">
+    <nav class="ct__crumbs" aria-label="breadcrumbs">
+      <a href="/">Home</a><span class="ct__sep" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M 7.75 1.34375 L 6.25 2.65625 L 14.65625 12 L 6.25 21.34375 L 7.75 22.65625 L 16.75 12.65625 L 17.34375 12 L 16.75 11.34375 Z"/></svg></span><span>Contact</span>
+    </nav>
+    <h1 class="ct__title">Contact</h1>
+    <div class="ct__row">
+      <div class="ct__left">
+        <div class="ct__intro"><span>Questions or Personalised Order?<br>Use the form below to send us a message or contact us by mail at:</span></div>
+        <form class="ct__form" id="contact-form">
+          <div class="ct__field">
+            <label class="ct__label" for="ct-name">Name</label>
+            <input class="ct__input" type="text" id="ct-name" name="name" autocomplete="name">
+          </div>
+          <div class="ct__field">
+            <label class="ct__label" for="ct-phone">Phone number</label>
+            <input class="ct__input" type="tel" id="ct-phone" name="phone" autocomplete="tel" pattern="[0-9]*">
+          </div>
+          <div class="ct__field">
+            <label class="ct__label" for="ct-email">Email <span class="ct__req">*</span></label>
+            <input class="ct__input" type="email" id="ct-email" name="email" autocomplete="email" required>
+          </div>
+          <div class="ct__field">
+            <label class="ct__label" for="ct-msg">Comment <span class="ct__req">*</span></label>
+            <textarea class="ct__input" id="ct-msg" name="message" rows="8" required></textarea>
+          </div>
+          <div class="ct__actions"><input type="submit" class="ct__btn" value="Submit contact"></div>
+        </form>
+      </div>
+      <div class="ct__right">
+        <h2 class="ct__subtitle">Contact US</h2>
+        <div class="ct__info">
+          <div class="ct__store"><p class="ct__mail"><span class="ct__icon"><svg viewBox="0 0 512 512" aria-hidden="true"><path fill="currentColor" d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg></span><span class="ct__mail-link"><a href="mailto:support@hekauniverse.com">support@hekauniverse.com</a></span></p></div>
+          <div class="ct__address"><address><p>San Luis Potosi 45, Casa 2<br> Mexico City, 06700, <br>Mexico</p></address></div>
+          <div class="ct__store ct__hours"><p>Opening Hours:<br>MON to FRI: 11:00AM - 11:00PM<br>SAT: 01:00PM - 8:00PM</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<div id="site-footer"></div>
+
+<script src="/assets/vendor/qrcode.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/services.js"></script>
+<script src="/assets/js/layout.js"></script>
+<script src="/assets/js/ui.js"></script>
+<script>
+document.getElementById('contact-form').addEventListener('submit', e => {
+  e.preventDefault();
+  // Con backend: POST /api/contact  ->  correo a support@hekauniverse.com
+  if (typeof showToast === 'function') showToast('Thanks for contacting us. We\'ll get back to you as soon as possible.');
+  e.target.reset();
+});
+</script>
+</body>
+</html>

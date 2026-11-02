@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ritual Studio — Heka Universe</title>
+<meta name="description" content="Heka is a multidisciplinary ritual house where art becomes ceremony, and form becomes frequency.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.10.0/dist/tabler-icons.min.css">
+<link rel="stylesheet" href="/assets/css/tokens.css">
+<link rel="stylesheet" href="/assets/css/layout.css">
+<link rel="stylesheet" href="/assets/css/components.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main>
+
+<section class="vhero" aria-label="Ritual Studio">
+  <video autoplay muted loop playsinline preload="metadata"><source src="https://cdn.shopify.com/videos/c/o/v/330e36f178e2430f87e16375f5f04455.mp4" type="video/mp4"></video>
+  <div class="vhero__overlay"></div>
+</section>
+
+<section class="rs-about">
+  <div class="rs-about__container">
+    <h2 class="rs-about__title">Ritual Design Studio</h2>
+    <div class="rs-about__text">Heka is a multidisciplinary ritual house where art becomes ceremony, and form becomes frequency. We design immersive experiences that span from the intimate to the monumental — using textiles, wax, scent, sound, and symbol as tools for transformation.</div>
+  </div>
+</section>
+
+<section class="rs-banner">
+  <img src="/assets/img/pages/ritual-studio/01.jpg" alt="Ritual Studio" loading="lazy">
+</section>
+
+</main>
+
+<div id="site-footer"></div>
+
+<script src="/assets/vendor/qrcode.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/services.js"></script>
+<script src="/assets/js/layout.js"></script>
+<script src="/assets/js/ui.js"></script>
+<script>
+document.querySelectorAll('.vhero video').forEach(v => {
+  new IntersectionObserver(es => es.forEach(e => e.isIntersecting ? v.play().catch(() => {}) : v.pause())).observe(v);
+});
+</script>
+</body>
+</html>

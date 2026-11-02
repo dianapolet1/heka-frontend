@@ -1,0 +1,33 @@
+{
+  "handle": "encaustic-art",
+  "url": "https://hekauniverse.com/pages/encaustic-art",
+  "title": "Encaustic Art  – Casita Heka",
+  "texts": [
+    {
+      "tag": "h2",
+      "text": "MELTiNG THE UNIVERSE"
+    },
+    {
+      "tag": "p",
+      "text": "Wax holds time differently. It breathes, it glows, it whispers and through it we channel symbols that are both ancestral and galactic"
+    }
+  ],
+  "images": [
+    {
+      "file": "/assets/img/pages/encaustic-art/01.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/B0D3D197-5CD1-4893-9435-5DDBE91D8FAB.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/encaustic-art/02.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/Screenshot_2025-10-01_at_20.53.20.png?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/encaustic-art/03.jpg",
+      "original": "https://hekauniverse.com/cdn/shop/files/1_E.jpg?width=1800"
+    },
+    {
+      "file": "/assets/img/pages/encaustic-art/04.png",
+      "original": "https://hekauniverse.com/cdn/shop/files/44495E83-808A-4A6E-B903-EF30E604D6EE.png?width=1800"
+    }
+  ]
+}

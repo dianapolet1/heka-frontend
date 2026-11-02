@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout — Heka Universe</title>
+<meta name="description" content="">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Manrope:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.10.0/dist/tabler-icons.min.css">
+<link rel="stylesheet" href="/assets/css/tokens.css">
+<link rel="stylesheet" href="/assets/css/layout.css">
+<link rel="stylesheet" href="/assets/css/components.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main>
+
+<div class="container">
+  <div class="two-col">
+    <form id="checkout-form" class="panel">
+      <div class="steps"><span class="on">1 · Contact</span><span class="on">2 · Shipping</span><span>3 · Payment</span></div>
+      <div class="notice"><i class="ti ti-info-circle"></i> Maqueta de frontend: el pedido real y el pago se conectan cuando exista el backend.</div>
+
+      <h3>Contact</h3>
+      <div class="field"><label>Email</label><input class="input" type="email" name="email" required></div>
+      <div class="field"><label>Phone</label><input class="input" type="tel" name="phone"></div>
+
+      <h3 style="margin-top:24px">Shipping address</h3>
+      <div class="grid-2">
+        <div class="field"><label>First name</label><input class="input" name="first_name" required></div>
+        <div class="field"><label>Last name</label><input class="input" name="last_name" required></div>
+      </div>
+      <div class="field"><label>Address</label><input class="input" name="address1" required></div>
+      <div class="field"><label>Apartment, suite (optional)</label><input class="input" name="address2"></div>
+      <div class="grid-2">
+        <div class="field"><label>City</label><input class="input" name="city" required></div>
+        <div class="field"><label>Postal code</label><input class="input" name="zip" required></div>
+      </div>
+      <div class="grid-2">
+        <div class="field"><label>State</label><input class="input" name="province" required></div>
+        <div class="field"><label>Country</label>
+          <select class="input" name="country"><option>México</option><option>United States</option><option>Canada</option><option>Other</option></select></div>
+      </div>
+
+      <h3 style="margin-top:24px">Payment</h3>
+      <div class="notice" style="background:var(--surface);color:var(--text-secondary)"><i class="ti ti-credit-card"></i> Métodos de pago pendientes de definir con el cliente.</div>
+
+      <button class="btn btn-primary btn-block" type="submit">Place order</button>
+    </form>
+
+    <aside class="panel" style="align-self:start">
+      <h3>Order summary</h3>
+      <div id="summary"></div>
+    </aside>
+  </div>
+</div>
+
+</main>
+
+<div id="site-footer"></div>
+
+<script src="/assets/vendor/qrcode.js"></script>
+<script src="/assets/js/utils.js"></script>
+<script src="/assets/js/services.js"></script>
+<script src="/assets/js/layout.js"></script>
+<script src="/assets/js/ui.js"></script>
+<script>
+const form = document.getElementById('checkout-form');
+
+// Recupera lo que el cliente ya escribió (base para "carrito abandonado")
+const saved = store.get('checkout_draft', {});
+Object.entries(saved).forEach(([k, v]) => { if (form.elements[k]) form.elements[k].value = v; });
+form.addEventListener('input', () => store.set('checkout_draft', Object.fromEntries(new FormData(form))));
+
+function drawSummary() {
+  const items = Cart.items();
+  const el = document.getElementById('summary');
+  if (!items.length) { el.innerHTML = '<p>Your cart is empty. <a href="/collections/all" style="text-decoration:underline">Shop</a></p>'; form.querySelector('[type=submit]').disabled = true; return; }
+  el.innerHTML = cartLinesHtml(items) + `
+    <div style="margin-top:16px">
+      <div class="totals-row"><span>Subtotal</span><span>${formatMoney(Cart.subtotal())}</span></div>
+      <div class="totals-row"><span>Shipping</span><span>—</span></div>
+      <div class="totals-row total"><span>Total</span><span>${formatMoney(Cart.subtotal())}</span></div>
+    </div>`;
+}
+document.addEventListener('heka:cart', drawSummary);
+drawSummary();
+
+form.addEventListener('submit', e => {
+  e.preventDefault();
+  // Con backend: POST /api/orders  →  redirigir a la pasarela de pago
+  const order = { ...Object.fromEntries(new FormData(form)), items: Cart.items(), total: Cart.subtotal() };
+  console.log('Pedido (maqueta):', order);
+  showToast('Pedido simulado ✔ (falta backend y pasarela)');
+});
+</script>
+</body>
+</html>

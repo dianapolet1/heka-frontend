@@ -1,0 +1,76 @@
+/* Fuentes propias de Heka (vienen del tema original).
+   Primero se buscan en /assets/fonts (npm run sync:assets); si no están, del CDN. */
+@font-face { font-family: 'FLOWRISE'; font-display: swap;
+  src: url('/assets/fonts/FLOWRISE.otf') format('opentype'),
+       url('https://hekauniverse.com/cdn/shop/files/FLOWRISE.otf?v=1756202793') format('opentype'); }
+@font-face { font-family: 'Lacquer'; font-display: swap;
+  src: url('/assets/fonts/Lacquer-Regular.ttf') format('truetype'),
+       url('https://hekauniverse.com/cdn/shop/files/Lacquer-Regular.ttf?v=1756490285') format('truetype'); }
+
+/* ============================================================
+   Heka Universe — Design Tokens
+   Cambia aquí y se propaga a todo el sitio
+   ============================================================ */
+
+:root {
+  /* ── Marca ─────────────────────────────────────────────── */
+  --accent: #684D63;   /* cera dorada */
+  --accent-hover: #3D3F0A;
+  --accent-light: #EFE2C6;
+  --accent-text: #684D63;
+
+  /* ── Neutros ───────────────────────────────────────────── */
+  --dark: #232323;   /* carbón / mecha */
+  --dark-2: #3C3C3C;
+  --surface: #E3D0A9;   /* cera natural */
+  --card: #F3E9D4;
+  --border: #CDB98F;
+  --divider: #D9C69F;
+
+  /* ── Texto ─────────────────────────────────────────────── */
+  --text-primary: #232323;
+  --text-secondary: #5A4E45;
+  --text-muted: #8A7D6B;
+  --text-on-dark: #E3D0A9;
+
+  /* ── Semánticos ────────────────────────────────────────── */
+  --success:       #4F7A52;
+  --success-bg:    #EAF2EA;
+  --danger:        #A8433A;
+  --danger-bg:     #F8E9E7;
+
+  /* ── Radios ────────────────────────────────────────────── */
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:   14px;
+  --radius-full: 9999px;
+
+  /* ── Espaciado ─────────────────────────────────────────── */
+  --space-xs:  4px;
+  --space-sm:  8px;
+  --space-md:  12px;
+  --space-lg:  16px;
+  --space-xl:  24px;
+  --space-2xl: 40px;
+  --space-3xl: 72px;
+
+  /* ── Tipografía ────────────────────────────────────────── */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body:    'Manrope', -apple-system, 'Segoe UI', sans-serif;
+  --font-brand:   'FLOWRISE', 'Fraunces', Georgia, serif;   /* "Heka", títulos de sección */
+  --font-price:   'Lacquer', 'Fraunces', serif;              /* precios */
+  --font-xs:   12px;
+  --font-sm:   13px;
+  --font-base: 15px;
+  --font-lg:   18px;
+  --font-xl:   24px;
+  --font-2xl:  34px;
+  --font-3xl:  52px;
+
+  /* ── Sombras / layout ──────────────────────────────────── */
+  --shadow-sm: 0 1px 3px rgba(27,23,20,.06);
+  --shadow-lg: 0 12px 40px rgba(27,23,20,.16);
+  --container: 1200px;
+  --header-h:  72px;
+  --transition: .2s ease;
+}

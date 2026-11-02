@@ -1,0 +1,16 @@
+{
+  "name": "heka-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Frontend de Heka Universe (réplica de hekauniverse.com) — HTML/CSS/JS puro",
+  "scripts": {
+    "dev": "node server.js",
+    "sync": "node scripts/sync-shopify.js",
+    "sync:images": "node scripts/sync-shopify.js --images",
+    "sync:pages": "node scripts/sync-pages.js",
+    "sync:assets": "node scripts/sync-assets.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "all": [
+    "portal-set",
+    "temple-set",
+    "altar-set"
+  ],
+  "artifacts": [],
+  "candles": [
+    "altar-set",
+    "temple-set",
+    "portal-set"
+  ],
+  "eclipse-couture": [],
+  "hand-painted-clothes": [],
+  "wax-painted-clothes": []
+}

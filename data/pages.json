@@ -1,0 +1,139 @@
+{
+  "pages": [
+    {
+      "id": 122113130721,
+      "body_html": "",
+      "created_at": "2025-07-13T14:40:14-06:00",
+      "published_at": "2025-08-21T06:44:25-06:00",
+      "updated_at": "2025-09-11T10:35:38-06:00",
+      "handle": "about-us",
+      "title": "Our Origins"
+    },
+    {
+      "id": 126576656609,
+      "body_html": "",
+      "created_at": "2025-10-24T03:57:08-06:00",
+      "published_at": "2025-10-24T04:04:28-06:00",
+      "updated_at": "2025-10-24T04:04:30-06:00",
+      "handle": "artifacts-shop",
+      "title": "Artifacts-shop"
+    },
+    {
+      "id": 126576558305,
+      "body_html": "",
+      "created_at": "2025-10-24T03:54:38-06:00",
+      "published_at": "2025-10-24T03:54:40-06:00",
+      "updated_at": "2025-10-24T03:54:42-06:00",
+      "handle": "candles",
+      "title": "Candles"
+    },
+    {
+      "id": 116342718689,
+      "body_html": "",
+      "created_at": "2025-01-24T19:40:44-06:00",
+      "published_at": "2025-01-24T19:40:44-06:00",
+      "updated_at": "2025-08-21T07:18:01-06:00",
+      "handle": "contact",
+      "title": "Contact"
+    },
+    {
+      "id": 116480016609,
+      "body_html": "<link rel=\"stylesheet\" type=\"text/css\" href=\"https:////cdn.shopify.com/shopifycloud/privacy-banner/data-sale-opt-out.css\">\n<meta charset=\"utf-8\"> <p>As described in our Privacy Policy, we collect personal information from your interactions with us and our website, including through cookies and similar technologies. We may also share this personal information with third parties, including advertising partners. We do this in order to show you ads on other websites that are more relevant to your interests and for other reasons outlined in our privacy policy.</p> <p>Sharing of personal information for targeted advertising based on your interaction on different websites may be considered &quot;sales&quot;, &quot;sharing&quot;, or &quot;targeted advertising&quot; under certain U.S. state privacy laws. Depending on where you live, you may have the right to opt out of these activities. If you would like to exercise this opt-out right, please follow the instructions below.</p> <p>If you visit our website with the Global Privacy Control opt-out preference signal enabled, depending on where you are, we will treat this as a request to opt-out of activity that may be considered a “sale” or “sharing” of personal information or other uses that may be considered targeted advertising for the device and browser you used to visit our website.</p>\n<div id=\"pc--optOutFormContainer\" data-not-applicable='To opt out of the &quot;sale&quot; or &quot;sharing&quot; of your personal information collected using cookies and other device-based identifiers as described above, you must be browsing from one of the applicable US states referred to above.' data-description='If you would like to opt out of activity that may be considered a &quot;sale&quot; or &quot;share,&quot; or &quot;targeted advertising&quot;, please submit your email.' data-email-label='Email' data-success='Opted-out successfully' data-error='A problem occurred, try submitting your email again' data-form-description='By clicking “opt out“, the browser on this device will be opted out of sharing personal data. If you select the checkbox and enter an email, the related customer account will also be opted out.' data-form-email-label='Email' data-form-opt-out-account-label=\"Don&#39;t share data from my account (optional)\" data-form-button-text='Opt out' data-form-opted-out='The browser on this device is opted out' data-form-success='You have successfully opted out' data-form-error='A problem occurred, please try again' ></div>\n<script src=\"https:////cdn.shopify.com/shopifycloud/privacy-banner/data-sale-opt-out.js\" defer></script> <script src=\"https://js.hcaptcha.com/1/api.js?onload=optOutOnLoad\" defer></script>",
+      "created_at": "2025-01-29T16:15:34-06:00",
+      "published_at": "2025-10-18T06:02:19-06:00",
+      "updated_at": "2026-01-28T10:24:46-06:00",
+      "handle": "data-sharing-opt-out",
+      "title": "Your Privacy Choices"
+    },
+    {
+      "id": 126583177441,
+      "body_html": "",
+      "created_at": "2025-10-24T08:37:57-06:00",
+      "published_at": "2025-10-24T08:37:56-06:00",
+      "updated_at": "2025-10-24T08:37:57-06:00",
+      "handle": "eclipse-couture",
+      "title": "Eclipse-Couture"
+    },
+    {
+      "id": 124646883553,
+      "body_html": "",
+      "created_at": "2025-09-04T10:14:36-06:00",
+      "published_at": "2025-09-04T10:14:34-06:00",
+      "updated_at": "2025-09-04T10:16:17-06:00",
+      "handle": "encaustic-art",
+      "title": "Encaustic Art"
+    },
+    {
+      "id": 124646424801,
+      "body_html": "",
+      "created_at": "2025-09-04T10:06:14-06:00",
+      "published_at": "2025-09-04T10:06:50-06:00",
+      "updated_at": "2025-09-04T10:06:52-06:00",
+      "handle": "experience-design",
+      "title": "Experience Design"
+    },
+    {
+      "id": 124646392033,
+      "body_html": "",
+      "created_at": "2025-09-04T10:05:47-06:00",
+      "published_at": "2025-09-04T10:06:59-06:00",
+      "updated_at": "2025-09-04T10:07:01-06:00",
+      "handle": "homewear",
+      "title": "Homewear"
+    },
+    {
+      "id": 126583144673,
+      "body_html": "",
+      "created_at": "2025-10-24T08:37:28-06:00",
+      "published_at": "2025-10-24T08:37:26-06:00",
+      "updated_at": "2025-10-24T08:37:28-06:00",
+      "handle": "painted-clothes",
+      "title": "Painted Clothes"
+    },
+    {
+      "id": 124152709345,
+      "body_html": "",
+      "created_at": "2025-08-25T03:08:14-06:00",
+      "published_at": "2025-08-25T03:08:13-06:00",
+      "updated_at": "2025-08-26T09:20:36-06:00",
+      "handle": "ritual-studio",
+      "title": "Ritual Studio"
+    },
+    {
+      "id": 124249047265,
+      "body_html": "",
+      "created_at": "2025-08-27T02:46:56-06:00",
+      "published_at": "2025-09-30T14:28:58-06:00",
+      "updated_at": "2025-09-30T14:29:00-06:00",
+      "handle": "shop-the-universe",
+      "title": "Shop the universe"
+    },
+    {
+      "id": 124646326497,
+      "body_html": "",
+      "created_at": "2025-09-04T10:03:11-06:00",
+      "published_at": "2025-09-04T10:03:07-06:00",
+      "updated_at": "2025-09-04T10:03:11-06:00",
+      "handle": "space-activation",
+      "title": "Space Activation"
+    },
+    {
+      "id": 124152611041,
+      "body_html": "",
+      "created_at": "2025-08-25T03:07:33-06:00",
+      "published_at": "2025-08-25T03:07:29-06:00",
+      "updated_at": "2025-08-26T09:24:01-06:00",
+      "handle": "universe-of-pau",
+      "title": "Universe of Pau"
+    },
+    {
+      "id": 124152643809,
+      "body_html": "",
+      "created_at": "2025-08-25T03:07:49-06:00",
+      "published_at": "2025-08-25T03:07:59-06:00",
+      "updated_at": "2025-08-26T10:30:42-06:00",
+      "handle": "wax-atelier",
+      "title": "Wax atelier"
+    }
+  ]
+}
